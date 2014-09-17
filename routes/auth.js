@@ -1,4 +1,3 @@
-var express = require('express');
 var UserApp = require('userapp');
 var orchestrate = require('orchestrate');
 var kew = require('kew');
@@ -49,6 +48,7 @@ passport.use(new UserAppStrategy({
 // AUTH ROUTES
 // 
 
+var express = require('express');
 var session = require('express-session');
 var router = express.Router();
 
@@ -114,5 +114,4 @@ function ensureAuthenticated (req, res, next) {
 
 // expose to rest of app
 exports.router = router;
-exports.passport = passport;
 exports.ensureAuthenticated = ensureAuthenticated;

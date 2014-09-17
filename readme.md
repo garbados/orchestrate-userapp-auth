@@ -1,4 +1,4 @@
-# smashing-tut-auth
+# orchestrate-userapp-auth
 
 [UserApp.io]: https://www.userapp.io/
 [Orchestrate]: http://orchestrate.io/
